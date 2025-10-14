@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1em;
+    /* Normalmente os Navegadores colocam 16px como padrão */
+    /* 1em = 16px */
+    /* Recomendação W3C usar em ou px */
+    /* weight -> peso da fonte */
+    /* width -> largura da fonte */
+    /* hight -> altura da fonte */
+
+    
+}
+h1{
+    font-family: 'work sans', sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3em;
+
+   
+}
+
+    /* short hand */
+    /* font: style weight size family; */
+    /* font: italic bolder 3em 'work sans', sans-serif; */
+h2{
+    font: italic bolder 3em 'work sans', sans-serif;
+    text-decoration: underline;
+}
+/* pesquisar no google */
+/* css web safe font combinations */

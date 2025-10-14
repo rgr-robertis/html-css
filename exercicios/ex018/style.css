@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    
+    font-family: "Work Sans", 'Arial' sans-serif;
+}
+h1,h2 {
+    font-family: 'Kaushan Script', cursive, serif;
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+

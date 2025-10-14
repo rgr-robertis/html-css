@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* style.css */
+
+@font-face {
+    font-family: 'LoveLucy' ;
+    src: url('fonts/lucy_said_ok/Lucy\ Said\ Ok\ Personal\ Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+
+    
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype (eot)
+    - truetype-aat (Apple Advanced Typography)
+    - svg (svg)
+    */
+}
+
+body {
+    
+    font-family: 'LoveLucy', sans-serif;
+    font-size: 32px;
+}
+
+h1,h2 {
+    font-family: 'LoveLucy', sans-serif;
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 4em;
+}
