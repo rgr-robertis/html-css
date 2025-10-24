@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         th, td {
             border: 1px solid black;
@@ -23,9 +24,18 @@
             background-color: lightgray;
         }
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+
+        }
+        tbody > tr:nth-child(odd) { /* odd  Linhas ímpares  ou 2n-1 */
+            background-color: lightgray;
+        } /* even  Linhas pares ou 2n */
         td.numero {
             text-align: right;
         }
