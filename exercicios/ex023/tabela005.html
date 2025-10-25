@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 005</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;           
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        tr.destaque {
+            background-color: chartreuse;
+            font-weight: bold;
+        }
+        col.cNome {
+            background-color: chartreuse;
+        }
+        col.cGrupo {
+            background-color: lightblue;
+        }
+        col.cProfissao {
+            background-color: lightgoldenrodyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <caption>Cadastro</caption>
+    <table>
+        <colgroup>
+            <col class="cNome">
+            <col class="cGrupo" span="2">
+            <col class="cProfissao">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Bruno Silva</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr class="destaque">
+            <td>Carla Souza</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Daniel Oliveira</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Elisa Ferreira</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>  
+        </tr>
+        <tr>
+            <td>Felipe Costa</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Advogado</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
